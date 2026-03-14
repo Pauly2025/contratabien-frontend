@@ -29,17 +29,20 @@ export default function Layout({ children }) {
         <div className="container mx-auto px-4 py-6 text-center">
           <p>© 2026 Contratabien AI - Reclutamiento Inteligente</p>
         </div>
-        <div className="flex gap-4">
-        <Link href="/dashboard" className="hover:text-teal-200">
-          Dashboard
-        </Link>
-        <Link href="/upload" className="hover:text-teal-200">
-          Analizar CV
-        </Link>
-        <Link href="/stats" className="hover:text-teal-200">
-          Estadísticas
-        </Link>
-    </div>
+    <div className="flex gap-4">
+  <Link href="/dashboard" className="hover:text-teal-200">
+    Dashboard
+  </Link>
+  <Link href="/profiles" className="hover:text-teal-200">
+    Perfiles
+  </Link>
+  <Link href="/upload" className="hover:text-teal-200">
+    Analizar CV
+  </Link>
+  <Link href="/stats" className="hover:text-teal-200">
+    Estadísticas
+  </Link>
+</div>
       </footer>
     </div>
   );
